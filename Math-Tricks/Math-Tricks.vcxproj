@@ -129,6 +129,12 @@
   <ItemGroup>
     <ClCompile Include="Math-Tricks.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GenerateMatrix.h" />
+    <ClInclude Include="Operation.h" />
+    <ClInclude Include="PrintMatrix.h" />
+    <ClInclude Include="Validation.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

@@ -13,10 +13,30 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Matrix">
+      <UniqueIdentifier>{5cb2f481-cd8e-4dde-a926-c612db329a70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Misc">
+      <UniqueIdentifier>{ce5e4467-0a3f-4319-89d6-8e2fef830a8a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Math-Tricks.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GenerateMatrix.h">
+      <Filter>Source Files\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="Operation.h">
+      <Filter>Source Files\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="Validation.h">
+      <Filter>Source Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintMatrix.h">
+      <Filter>Source Files\Matrix</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -1,17 +1,38 @@
 ﻿#include <iostream>
 #include "GenerateMatrix.h";
-#include "Operation.h"
+#include "Operation.h";
+#include <Windows.h> 
+#include "PrintMatrix.h";
 
 int main()
 {
 	srand(time(0));
 	int cols = 0;
 	int rows = 0;
-	while (cols < 4 && rows < 4) {
-		std::cout << "Input size of the board (RxC) (minimum 4x4):";
+	int player1Score = 0;
+	int player2Score = 0;
+
+	while (cols < 4 || rows < 4) {
+		std::cout << "Input size of the board (RxC) (minimum 4x4): ";
 		std::cin >> rows >> cols;
 	}
-	Operation** matrix = new Operation * [rows];
-	CreateMatrix(matrix, rows, cols);
+
+	Operation** mat = new Operation* [rows];
+	char** posMat = new char* [rows];
+	CreateMatrix(mat, rows, cols);
+	FillMatrix(mat, rows, cols);
+	FillPositions(posMat, rows, cols);
+
+	int player1RowPos = 0;
+	int player1ColPos = 0;
+	int player2RowPos = rows-1;
+	int player2ColPos = cols-1;
+	bool turn = 0; //0 is blue, 1 is green
+	while (true)
+	{
+		system("cls");
+		PrintMatrix(mat, posMat, rows, cols, player1RowPos, player1ColPos, player2RowPos, player2ColPos);
+		turn = !turn;
+	}
 }
 
