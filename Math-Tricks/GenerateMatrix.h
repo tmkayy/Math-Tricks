@@ -42,6 +42,7 @@ void minimalRequirements(Operation** mat, const int rows, const int cols) {
 }
 
 void FillPositions(char** posMat, const int rows, const int cols) {
+	//fill position matrix
 	for (int i = 0; i < rows; ++i) {
 		posMat[i] = new char[cols];
 	}
@@ -49,9 +50,10 @@ void FillPositions(char** posMat, const int rows, const int cols) {
 		for (int j = 0; j < cols; ++j) {
 			if (i == 0 && j == 0)
 				posMat[i][j] = 'b';
-			if (i == rows-1 && j == cols-1)
+			else if (i == rows - 1 && j == cols - 1)
 				posMat[i][j] = 'g';
-			posMat[i][j] = '\0';
+			else
+				posMat[i][j] = '\0';
 		}
 	}
 }
@@ -65,7 +67,7 @@ void CreateMatrix(Operation** mat, const int rows, const int cols) {
 			if ((i == 0 && j == 0) || (i == rows - 1 && j == cols - 1)) //start positions
 				mat[i][j] = { '*', 0 };
 			else
-				mat[i][j] = {'e', 0}; //fill matrix with default operators (e for empty)
+				mat[i][j] = { 'e', 0 }; //fill matrix with default operators (e for empty)
 		}
 	}
 	minimalRequirements(mat, rows, cols);

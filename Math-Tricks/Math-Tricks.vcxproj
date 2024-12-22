@@ -131,6 +131,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GenerateMatrix.h" />
+    <ClInclude Include="Moving.h" />
     <ClInclude Include="Operation.h" />
     <ClInclude Include="PrintMatrix.h" />
     <ClInclude Include="Validation.h" />
