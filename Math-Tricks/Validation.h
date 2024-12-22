@@ -25,3 +25,21 @@ bool ValidMove(char** posMat, int playerRow, int playerCol, int newPlayerRow, in
 
 	return true;
 }
+
+bool GameOver(char** posMat, int playerRow, int playerCol, int rows, int cols) {
+	for (int i = -1; i <= 1; ++i) {
+		for (int j = -1; j <= 1; ++j) {
+			if (i == 0 && j == 0) continue;
+
+			int newRow = playerRow + i;
+			int newCol = playerCol + j;
+
+			if (newRow >= 0 && newRow < rows && //check bounds and if its empty
+				newCol >= 0 && newCol < cols &&
+				posMat[newRow][newCol] == '\0') {
+				return false;
+			}
+		}
+	}
+	return true;
+}

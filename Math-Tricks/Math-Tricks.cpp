@@ -1,9 +1,9 @@
-﻿#include <iostream>
-#include "GenerateMatrix.h"
-#include "Operation.h"
+#include <iostream>
 #include <Windows.h> 
+#include "GenerateMatrix.h"
 #include "PrintMatrix.h"
 #include "Moving.h"
+#include "Validation.h"
 
 int main()
 {
@@ -38,11 +38,19 @@ int main()
 		if (turn) { //green
 			std::cout << "Green's turn:" << std::endl;
 			Move(mat, posMat, player2RowPos, player2ColPos, turn, rows, cols, player2Score);
+			if (GameOver(posMat, player1RowPos, player1ColPos, rows, cols)) {
+				return 0;
+			}
 		}
 		else { //blue
 			std::cout << "Blue's turn:" << std::endl;
 			Move(mat, posMat, player1RowPos, player1ColPos, turn, rows, cols, player1Score);
+			if (GameOver(posMat, player2RowPos, player2ColPos, rows, cols)) {
+				return 0;
+			}
 		}
+
+
 		turn = !turn;
 	}
 }
