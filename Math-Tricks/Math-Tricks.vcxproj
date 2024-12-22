@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Game.h" />
     <ClInclude Include="GenerateMatrix.h" />
     <ClInclude Include="Moving.h" />
     <ClInclude Include="Operation.h" />
