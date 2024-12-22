@@ -3,7 +3,7 @@
 #include "Operation.h"
 #include "Validation.h"
 
-void Move(Operation** mat, char** posMat, int& playerRow, int& playerCol, bool player, const int rows, const int cols) {
+void Move(Operation** mat, char** posMat, int& playerRow, int& playerCol, bool player, const int rows, const int cols, int& score) {
 	int nextMoveRow = 0;
 	int nextMoveCol = 0;
 	while (true)
@@ -19,4 +19,5 @@ void Move(Operation** mat, char** posMat, int& playerRow, int& playerCol, bool p
 	playerRow = nextMoveRow;
 	playerCol = nextMoveCol;
 	posMat[playerRow][playerCol] = (player == 0) ? 'b' : 'g';
+	mat[playerRow][playerCol].ManipulateScore(score);
 }

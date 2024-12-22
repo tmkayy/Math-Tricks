@@ -16,6 +16,8 @@ char getRandomOperator() {
 Operation randomOp(const int rows, const int cols) {
 	int randomNum = rand() % (getMax(rows, cols) - 2); //larger nums for larger matrix
 	char randomChar = getRandomOperator();
+	if (randomChar == '+') //get less useless cells
+		randomNum++;
 	randomNum = checkForDivisionBy0(randomNum, randomChar);
 	return { randomChar, randomNum };
 }
