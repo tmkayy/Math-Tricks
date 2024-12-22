@@ -1,0 +1,2 @@
+# Math Tricks
+ Course project
