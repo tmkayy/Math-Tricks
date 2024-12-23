@@ -3,16 +3,48 @@
 #include "Operation.h"
 #include "Validation.h"
 
+const int MAX_LENGTH = 10;
+
+int charToInt(char c) {
+	return c - '0';
+}
+
+int stringToInt(const char* str) {
+	int result = 0;
+	bool isNegative = false;
+	while (*str == ' ') { //in case theres white spaces
+		str++;
+	}
+	if (*str == '-') {
+		isNegative = true;
+		str++;
+	}
+	while (*str >= '0' && *str <= '9') {
+		result = result * 10 + charToInt(*str);
+		str++;
+	}
+
+	return (isNegative ? (result * -1) : result);
+}
+
 void Move(Operation** mat, char** posMat, int& playerRow, int& playerCol, bool player, const int rows, const int cols, int& score) {
 	int nextMoveRow = 0;
 	int nextMoveCol = 0;
-	while (true)
-	{
-		std::cout << "Enter your next move (1 cell away):" << std::endl;
+	char input[MAX_LENGTH];
+	while (true) {
+		std::cout << "Enter your next move (row and column 1 cell away or \"S\" to save game and quit):" << std::endl;
 		std::cout << "Row = ";
-		std::cin >> nextMoveRow;
+		std::cin >> input;
+
+		if (input[0] == 'S' || input[0] == 's') {//saving game and quit
+			std::cout << "Saving game and quitting..." << std::endl;
+			Deserialize(mat, posMat, rows, cols);
+			exit(0);
+		}
+		nextMoveRow = stringToInt(input);
 		std::cout << "Column = ";
 		std::cin >> nextMoveCol;
+
 		if (ValidMove(posMat, playerRow, playerCol, nextMoveRow, nextMoveCol, rows, cols))
 			break;
 	}
