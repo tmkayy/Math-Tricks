@@ -14,8 +14,15 @@ void PrintMatrix(Operation** mat, char** posMat, const int rows, const int cols,
 	const int player2RowPos, const int player2ColPos) {
 	HANDLE  hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
 
+	std::cout << "      ";
+	for (int j = 0; j < cols; ++j) {
+		std::cout << "c" << j << "  ";//print column number and it wont be centered with double digit nums
+	}
+	std::cout << std::endl << std::endl << std::endl;
+
 	for (size_t i = 0; i < rows; i++)
 	{
+		std::cout << 'r' << i << "    ";//print row number
 		for (size_t j = 0; j < cols; j++) //print operations
 		{
 			if (i == player1RowPos && j == player1ColPos) {
