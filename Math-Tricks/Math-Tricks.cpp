@@ -60,6 +60,15 @@ int main()
 
 		turn = !turn;
 	}
+
 	PrintWinner(player1Score, player2Score);
+
+	for (int i = 0; i < rows; ++i) {
+		delete[] mat[i];
+		delete[] posMat[i];
+	}
+	delete[] mat;
+	delete[] posMat;
+
 	return 0;
 }
