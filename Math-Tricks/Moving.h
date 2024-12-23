@@ -2,6 +2,7 @@
 #include <iostream>
 #include "Operation.h"
 #include "Validation.h"
+#include "Game.h"
 
 const int MAX_LENGTH = 10;
 
@@ -27,7 +28,12 @@ int stringToInt(const char* str) {
 	return (isNegative ? (result * -1) : result);
 }
 
-void Move(Operation** mat, char** posMat, int& playerRow, int& playerCol, bool player, const int rows, const int cols, int& score) {
+void Move(Operation** mat, char** posMat,
+	int& playerRow, int& playerCol,
+	bool player, const int rows, const int cols, int& score,
+	int player1Row, int player1Col, int player2Row, int player2Col,
+	int player1Score, int player2Score, bool turn)
+{
 	int nextMoveRow = 0;
 	int nextMoveCol = 0;
 	char input[MAX_LENGTH];
@@ -38,7 +44,7 @@ void Move(Operation** mat, char** posMat, int& playerRow, int& playerCol, bool p
 
 		if (input[0] == 'S' || input[0] == 's') {//saving game and quit
 			std::cout << "Saving game and quitting..." << std::endl;
-			Deserialize(mat, posMat, rows, cols);
+			Deserialize(mat, posMat, rows, cols, player1Row, player1Col, player2Row, player2Col, player1Score, player2Score, turn);
 			exit(0);
 		}
 		nextMoveRow = stringToInt(input);

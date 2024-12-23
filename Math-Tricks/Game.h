@@ -22,7 +22,8 @@ void PrintWinner(int player1Score, int player2Score) {
 	SetConsoleTextAttribute(hConsole, FG_WHITE | BG_BLACK);
 }
 
-void Deserialize(Operation** mat, char** matPos, int rows, int cols)
+void Deserialize(Operation** mat, char** matPos, int rows, int cols, int player1row, int player1col, int player2row, int player2col,
+	int player1score, int player2score, bool turn) //save game
 {
 	std::ofstream ofs1(positionFile);
 	std::ofstream ofs2(gameFile);
@@ -42,10 +43,10 @@ void Deserialize(Operation** mat, char** matPos, int rows, int cols)
 		}
 		ofs1 << '\n';
 	}
-
+	ofs1 << player1row << ' ' << player1col << ' ' << player2row << ' ' << player2col;// save positions
 	ofs1.close();
 
-	for (int i = 0; i < rows; i++) //save positions
+	for (int i = 0; i < rows; i++) //save game board
 	{
 		for (int j = 0; j < cols; j++)
 		{
@@ -53,11 +54,13 @@ void Deserialize(Operation** mat, char** matPos, int rows, int cols)
 		}
 		ofs2 << '\n';
 	}
+	ofs2 << player1score << ' ' << player2score << std::endl; //save scores
+	ofs2 << turn;
 	ofs2.close();
 }
 
-char** SerializePos(int& rows, int& cols)
-{
+char** SerializePos(int& rows, int& cols, int& player1row, int& player1col, int& player2row, int& player2col)
+{//load positions matrix and positions
 	std::ifstream ifs(positionFile);
 	if (!ifs.is_open())
 		return nullptr;
@@ -72,14 +75,15 @@ char** SerializePos(int& rows, int& cols)
 			ifs >> posMat[i][j];
 		}
 	}
+	ifs >> player1row >> player1col >> player2row >> player2col;
 	ifs.close();
 
 	return posMat;
 }
 
-Operation** SerializeGame(int& rows, int& cols)
-{
-	std::ifstream ifs(positionFile);
+Operation** SerializeGame(int& rows, int& cols, int& player1score, int& player2score, bool& turn)
+{//load board, scores and turn
+	std::ifstream ifs(gameFile);
 	if (!ifs.is_open())
 		return nullptr;
 
@@ -88,11 +92,13 @@ Operation** SerializeGame(int& rows, int& cols)
 
 	for (int i = 0; i < rows; i++)
 	{
-		mat[i] = new char[cols];
+		mat[i] = new Operation[cols];
 		for (int j = 0; j < cols; ++j) {
 			ifs >> mat[i][j].operation >> mat[i][j].number;
 		}
 	}
+	ifs >> player1score >> player2score;
+	ifs >> turn;
 	ifs.close();
 
 	return mat;
