@@ -1,34 +1,54 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\storm\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Math-Tricks\\Math-Tricks\\",
+  "WorkspaceRootPath": "C:\\Users\\storm\\OneDrive\\Desktop\\Math-Tricks\\Math-Tricks\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2C7179AD-68EB-4BB8-8F87-6128F517B3F9}|Math-Tricks.vcxproj|C:\\Users\\storm\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Math-Tricks\\Math-Tricks\\PrintMatrix.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{2C7179AD-68EB-4BB8-8F87-6128F517B3F9}|Math-Tricks.vcxproj|solutionrelative:PrintMatrix.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C7179AD-68EB-4BB8-8F87-6128F517B3F9}|Math-Tricks.vcxproj|C:\\Users\\storm\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Math-Tricks\\Math-Tricks\\Math-Tricks.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{2C7179AD-68EB-4BB8-8F87-6128F517B3F9}|Math-Tricks.vcxproj|C:\\Users\\storm\\OneDrive\\Desktop\\Math-Tricks\\Math-Tricks\\Math-Tricks.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{2C7179AD-68EB-4BB8-8F87-6128F517B3F9}|Math-Tricks.vcxproj|solutionrelative:Math-Tricks.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C7179AD-68EB-4BB8-8F87-6128F517B3F9}|Math-Tricks.vcxproj|C:\\Users\\storm\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Math-Tricks\\Math-Tricks\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{2C7179AD-68EB-4BB8-8F87-6128F517B3F9}|Math-Tricks.vcxproj|solutionrelative:Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{2C7179AD-68EB-4BB8-8F87-6128F517B3F9}|Math-Tricks.vcxproj|C:\\Users\\storm\\OneDrive\\Desktop\\Math-Tricks\\Math-Tricks\\Moving.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2C7179AD-68EB-4BB8-8F87-6128F517B3F9}|Math-Tricks.vcxproj|solutionrelative:Moving.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C7179AD-68EB-4BB8-8F87-6128F517B3F9}|Math-Tricks.vcxproj|C:\\Users\\storm\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Math-Tricks\\Math-Tricks\\Moving.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{2C7179AD-68EB-4BB8-8F87-6128F517B3F9}|Math-Tricks.vcxproj|C:\\Users\\storm\\OneDrive\\Desktop\\Math-Tricks\\Math-Tricks\\Moving.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{2C7179AD-68EB-4BB8-8F87-6128F517B3F9}|Math-Tricks.vcxproj|solutionrelative:Moving.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C7179AD-68EB-4BB8-8F87-6128F517B3F9}|Math-Tricks.vcxproj|C:\\Users\\storm\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Math-Tricks\\Math-Tricks\\GenerateMatrix.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{2C7179AD-68EB-4BB8-8F87-6128F517B3F9}|Math-Tricks.vcxproj|C:\\Users\\storm\\OneDrive\\Desktop\\Math-Tricks\\Math-Tricks\\GenerateMatrix.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{2C7179AD-68EB-4BB8-8F87-6128F517B3F9}|Math-Tricks.vcxproj|solutionrelative:GenerateMatrix.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C7179AD-68EB-4BB8-8F87-6128F517B3F9}|Math-Tricks.vcxproj|C:\\Users\\storm\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Math-Tricks\\Math-Tricks\\Validation.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{2C7179AD-68EB-4BB8-8F87-6128F517B3F9}|Math-Tricks.vcxproj|C:\\Users\\storm\\OneDrive\\Desktop\\Math-Tricks\\Math-Tricks\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2C7179AD-68EB-4BB8-8F87-6128F517B3F9}|Math-Tricks.vcxproj|solutionrelative:Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C7179AD-68EB-4BB8-8F87-6128F517B3F9}|Math-Tricks.vcxproj|C:\\Users\\storm\\OneDrive\\Desktop\\Math-Tricks\\Math-Tricks\\PrintMatrix.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2C7179AD-68EB-4BB8-8F87-6128F517B3F9}|Math-Tricks.vcxproj|solutionrelative:PrintMatrix.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C7179AD-68EB-4BB8-8F87-6128F517B3F9}|Math-Tricks.vcxproj|C:\\Users\\storm\\OneDrive\\Desktop\\Math-Tricks\\Math-Tricks\\Operation.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2C7179AD-68EB-4BB8-8F87-6128F517B3F9}|Math-Tricks.vcxproj|solutionrelative:Operation.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C7179AD-68EB-4BB8-8F87-6128F517B3F9}|Math-Tricks.vcxproj|C:\\Users\\storm\\OneDrive\\Desktop\\Math-Tricks\\Math-Tricks\\PrintMatrix.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2C7179AD-68EB-4BB8-8F87-6128F517B3F9}|Math-Tricks.vcxproj|solutionrelative:PrintMatrix.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C7179AD-68EB-4BB8-8F87-6128F517B3F9}|Math-Tricks.vcxproj|C:\\Users\\storm\\OneDrive\\Desktop\\Math-Tricks\\Math-Tricks\\Validation.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2C7179AD-68EB-4BB8-8F87-6128F517B3F9}|Math-Tricks.vcxproj|solutionrelative:Validation.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C7179AD-68EB-4BB8-8F87-6128F517B3F9}|Math-Tricks.vcxproj|C:\\Users\\storm\\OneDrive\\Desktop\\Math-Tricks\\Math-Tricks\\Validation.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{2C7179AD-68EB-4BB8-8F87-6128F517B3F9}|Math-Tricks.vcxproj|solutionrelative:Validation.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C7179AD-68EB-4BB8-8F87-6128F517B3F9}|Math-Tricks.vcxproj|C:\\Users\\storm\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Math-Tricks\\Math-Tricks\\Operation.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{2C7179AD-68EB-4BB8-8F87-6128F517B3F9}|Math-Tricks.vcxproj|solutionrelative:Operation.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{2C7179AD-68EB-4BB8-8F87-6128F517B3F9}|Math-Tricks.vcxproj|C:\\Users\\storm\\OneDrive\\Desktop\\Math-Tricks\\Math-Tricks\\GenerateMatrix.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2C7179AD-68EB-4BB8-8F87-6128F517B3F9}|Math-Tricks.vcxproj|solutionrelative:GenerateMatrix.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C7179AD-68EB-4BB8-8F87-6128F517B3F9}|Math-Tricks.vcxproj|C:\\Users\\storm\\OneDrive\\Desktop\\Math-Tricks\\Math-Tricks\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2C7179AD-68EB-4BB8-8F87-6128F517B3F9}|Math-Tricks.vcxproj|solutionrelative:Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -41,108 +61,160 @@
           "SelectedChildIndex": 6,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Moving.cpp",
+              "DocumentMoniker": "C:\\Users\\storm\\OneDrive\\Desktop\\Math-Tricks\\Math-Tricks\\Moving.cpp",
+              "RelativeDocumentMoniker": "Moving.cpp",
+              "ToolTip": "C:\\Users\\storm\\OneDrive\\Desktop\\Math-Tricks\\Math-Tricks\\Moving.cpp",
+              "RelativeToolTip": "Moving.cpp",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-12T20:54:54.351Z",
+              "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Moving.h",
+              "DocumentMoniker": "C:\\Users\\storm\\OneDrive\\Desktop\\Math-Tricks\\Math-Tricks\\Moving.h",
+              "RelativeDocumentMoniker": "Moving.h",
+              "ToolTip": "C:\\Users\\storm\\OneDrive\\Desktop\\Math-Tricks\\Math-Tricks\\Moving.h",
+              "RelativeToolTip": "Moving.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-22T22:37:29.231Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Operation.h",
-              "DocumentMoniker": "C:\\Users\\storm\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Math-Tricks\\Math-Tricks\\Operation.h",
+              "DocumentMoniker": "C:\\Users\\storm\\OneDrive\\Desktop\\Math-Tricks\\Math-Tricks\\Operation.h",
               "RelativeDocumentMoniker": "Operation.h",
-              "ToolTip": "C:\\Users\\storm\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Math-Tricks\\Math-Tricks\\Operation.h",
+              "ToolTip": "C:\\Users\\storm\\OneDrive\\Desktop\\Math-Tricks\\Math-Tricks\\Operation.h",
               "RelativeToolTip": "Operation.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-22T22:38:31.515Z"
+              "WhenOpened": "2024-12-22T22:38:31.515Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Game.h",
-              "DocumentMoniker": "C:\\Users\\storm\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Math-Tricks\\Math-Tricks\\Game.h",
-              "RelativeDocumentMoniker": "Game.h",
-              "ToolTip": "C:\\Users\\storm\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Math-Tricks\\Math-Tricks\\Game.h",
-              "RelativeToolTip": "Game.h",
-              "ViewState": "AgIAADkAAAAAAAAAAAAowEAAAAAUAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "PrintMatrix.cpp",
+              "DocumentMoniker": "C:\\Users\\storm\\OneDrive\\Desktop\\Math-Tricks\\Math-Tricks\\PrintMatrix.cpp",
+              "RelativeDocumentMoniker": "PrintMatrix.cpp",
+              "ToolTip": "C:\\Users\\storm\\OneDrive\\Desktop\\Math-Tricks\\Math-Tricks\\PrintMatrix.cpp",
+              "RelativeToolTip": "PrintMatrix.cpp",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAA8AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-12T20:56:58.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Validation.cpp",
+              "DocumentMoniker": "C:\\Users\\storm\\OneDrive\\Desktop\\Math-Tricks\\Math-Tricks\\Validation.cpp",
+              "RelativeDocumentMoniker": "Validation.cpp",
+              "ToolTip": "C:\\Users\\storm\\OneDrive\\Desktop\\Math-Tricks\\Math-Tricks\\Validation.cpp",
+              "RelativeToolTip": "Validation.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-12T20:58:21.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Validation.h",
+              "DocumentMoniker": "C:\\Users\\storm\\OneDrive\\Desktop\\Math-Tricks\\Math-Tricks\\Validation.h",
+              "RelativeDocumentMoniker": "Validation.h",
+              "ToolTip": "C:\\Users\\storm\\OneDrive\\Desktop\\Math-Tricks\\Math-Tricks\\Validation.h",
+              "RelativeToolTip": "Validation.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-22T23:22:15.42Z"
+              "WhenOpened": "2024-12-22T22:40:03.684Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Math-Tricks.cpp",
-              "DocumentMoniker": "C:\\Users\\storm\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Math-Tricks\\Math-Tricks\\Math-Tricks.cpp",
+              "DocumentMoniker": "C:\\Users\\storm\\OneDrive\\Desktop\\Math-Tricks\\Math-Tricks\\Math-Tricks.cpp",
               "RelativeDocumentMoniker": "Math-Tricks.cpp",
-              "ToolTip": "C:\\Users\\storm\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Math-Tricks\\Math-Tricks\\Math-Tricks.cpp",
+              "ToolTip": "C:\\Users\\storm\\OneDrive\\Desktop\\Math-Tricks\\Math-Tricks\\Math-Tricks.cpp",
               "RelativeToolTip": "Math-Tricks.cpp",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAACgAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAADcAAAAAAAAAAAAYwEcAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-22T22:47:42.821Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Validation.h",
-              "DocumentMoniker": "C:\\Users\\storm\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Math-Tricks\\Math-Tricks\\Validation.h",
-              "RelativeDocumentMoniker": "Validation.h",
-              "ToolTip": "C:\\Users\\storm\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Math-Tricks\\Math-Tricks\\Validation.h",
-              "RelativeToolTip": "Validation.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-22T22:40:03.684Z"
+              "DocumentIndex": 4,
+              "Title": "Game.cpp",
+              "DocumentMoniker": "C:\\Users\\storm\\OneDrive\\Desktop\\Math-Tricks\\Math-Tricks\\Game.cpp",
+              "RelativeDocumentMoniker": "Game.cpp",
+              "ToolTip": "C:\\Users\\storm\\OneDrive\\Desktop\\Math-Tricks\\Math-Tricks\\Game.cpp",
+              "RelativeToolTip": "Game.cpp",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-12T20:50:29.582Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "GenerateMatrix.h",
+              "DocumentMoniker": "C:\\Users\\storm\\OneDrive\\Desktop\\Math-Tricks\\Math-Tricks\\GenerateMatrix.h",
+              "RelativeDocumentMoniker": "GenerateMatrix.h",
+              "ToolTip": "C:\\Users\\storm\\OneDrive\\Desktop\\Math-Tricks\\Math-Tricks\\GenerateMatrix.h",
+              "RelativeToolTip": "GenerateMatrix.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAYwAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-22T22:36:48.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "PrintMatrix.h",
-              "DocumentMoniker": "C:\\Users\\storm\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Math-Tricks\\Math-Tricks\\PrintMatrix.h",
+              "DocumentMoniker": "C:\\Users\\storm\\OneDrive\\Desktop\\Math-Tricks\\Math-Tricks\\PrintMatrix.h",
               "RelativeDocumentMoniker": "PrintMatrix.h",
-              "ToolTip": "C:\\Users\\storm\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Math-Tricks\\Math-Tricks\\PrintMatrix.h",
+              "ToolTip": "C:\\Users\\storm\\OneDrive\\Desktop\\Math-Tricks\\Math-Tricks\\PrintMatrix.h",
               "RelativeToolTip": "PrintMatrix.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAYwAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-12-22T22:39:16.004Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Moving.h",
-              "DocumentMoniker": "C:\\Users\\storm\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Math-Tricks\\Math-Tricks\\Moving.h",
-              "RelativeDocumentMoniker": "Moving.h",
-              "ToolTip": "C:\\Users\\storm\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Math-Tricks\\Math-Tricks\\Moving.h",
-              "RelativeToolTip": "Moving.h",
-              "ViewState": "AgIAABkAAAAAAAAAAAAtwCwAAABBAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "Game.h",
+              "DocumentMoniker": "C:\\Users\\storm\\OneDrive\\Desktop\\Math-Tricks\\Math-Tricks\\Game.h",
+              "RelativeDocumentMoniker": "Game.h",
+              "ToolTip": "C:\\Users\\storm\\OneDrive\\Desktop\\Math-Tricks\\Math-Tricks\\Game.h",
+              "RelativeToolTip": "Game.h",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-22T22:37:29.231Z"
+              "WhenOpened": "2024-12-22T23:22:15.42Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GenerateMatrix.h",
-              "DocumentMoniker": "C:\\Users\\storm\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Math-Tricks\\Math-Tricks\\GenerateMatrix.h",
-              "RelativeDocumentMoniker": "GenerateMatrix.h",
-              "ToolTip": "C:\\Users\\storm\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Math-Tricks\\Math-Tricks\\GenerateMatrix.h",
-              "RelativeToolTip": "GenerateMatrix.h",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAADsAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-22T22:36:48.627Z"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+              "DocumentIndex": 10,
+              "Title": "GenerateMatrix.cpp",
+              "DocumentMoniker": "C:\\Users\\storm\\OneDrive\\Desktop\\Math-Tricks\\Math-Tricks\\GenerateMatrix.cpp",
+              "RelativeDocumentMoniker": "GenerateMatrix.cpp",
+              "ToolTip": "C:\\Users\\storm\\OneDrive\\Desktop\\Math-Tricks\\Math-Tricks\\GenerateMatrix.cpp",
+              "RelativeToolTip": "GenerateMatrix.cpp",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-12T20:52:50.371Z",
+              "EditorCaption": ""
             }
           ]
         }

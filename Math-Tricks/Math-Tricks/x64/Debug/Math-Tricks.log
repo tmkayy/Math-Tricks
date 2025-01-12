@@ -1,3 +1,3 @@
 ﻿  Math-Tricks.cpp
-C:\Users\storm\OneDrive\Работен плот\Math-Tricks\Math-Tricks\Math-Tricks.cpp(12,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  Math-Tricks.vcxproj -> C:\Users\storm\OneDrive\Работен плот\Math-Tricks\Math-Tricks\x64\Debug\Math-Tricks.exe
+C:\Users\storm\OneDrive\Desktop\Math-Tricks\Math-Tricks\Math-Tricks.cpp(20,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Math-Tricks.vcxproj -> C:\Users\storm\OneDrive\Desktop\Math-Tricks\Math-Tricks\x64\Debug\Math-Tricks.exe

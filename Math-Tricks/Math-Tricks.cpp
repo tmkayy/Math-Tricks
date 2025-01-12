@@ -6,6 +6,14 @@
 #include "Validation.h"
 #include "Game.h"
 
+void HandleTurn(HANDLE hConsole, Operation** mat, char** posMat, int& playerRow, int& playerCol,
+	int& playerScore, int opponentRow, int opponentCol, int rows, int cols,
+	bool& turn) {
+	SetConsoleTextAttribute(hConsole, FG_WHITE | BG_BLACK);
+	Move(mat, posMat, playerRow, playerCol, turn, rows, cols, playerScore,
+		playerRow, playerCol, opponentRow, opponentCol, playerScore, playerScore, turn);
+}
+
 int main()
 {
 	HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
