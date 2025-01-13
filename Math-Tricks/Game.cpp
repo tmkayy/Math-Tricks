@@ -6,11 +6,11 @@ const char gameFile[] = "game.txt";
 void PrintWinner(int player1Score, int player2Score) {
 	HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
 	if (player1Score > player2Score) {
-		SetConsoleTextAttribute(hConsole, FOREGROUND_BLUE | BACKGROUND_INTENSITY);
+		SetConsoleTextAttribute(hConsole, FOREGROUND_BLUE | 0);
 		std::cout << "   BLUE WON";
 	}
 	else if (player2Score > player1Score) {
-		SetConsoleTextAttribute(hConsole, FOREGROUND_GREEN | BACKGROUND_INTENSITY);
+		SetConsoleTextAttribute(hConsole, FOREGROUND_GREEN | 0);
 		std::cout << "   GREEN WON";
 	}
 	else {
