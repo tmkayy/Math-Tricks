@@ -1,3 +1,17 @@
+/**
+*
+* Solution to course project #2
+* Introduction to programming course
+* Faculty of Mathematics and Informatics of Sofia University
+* Winter semester 2024/2025
+*
+* @author Haralampy Slavkov
+* @idnumber 2MI0600476* @compiler VC
+*
+* <file containing the functions for checking for valid move and game over>
+*
+*/
+
 #include "Validation.h"
 
 int checkForDivisionBy0 (int num, char op) {

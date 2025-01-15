@@ -1,9 +1,4 @@
-﻿  Game.cpp
-  GenerateMatrix.cpp
-  Math-Tricks.cpp
-C:\Users\storm\OneDrive\Desktop\Math-Tricks\Math-Tricks\Math-Tricks.cpp(22,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  Moving.cpp
+﻿  Math-Tricks.cpp
   PrintMatrix.cpp
-  Validation.cpp
   Generating Code...
   Math-Tricks.vcxproj -> C:\Users\storm\OneDrive\Desktop\Math-Tricks\Math-Tricks\x64\Debug\Math-Tricks.exe

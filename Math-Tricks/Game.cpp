@@ -1,16 +1,32 @@
+/**
+*
+* Solution to course project #2
+* Introduction to programming course
+* Faculty of Mathematics and Informatics of Sofia University
+* Winter semester 2024/2025
+*
+* @author Haralampy Slavkov
+* @idnumber 2MI0600476* @compiler VC
+*
+* <file containing the functions for saving game and printing winner>
+*
+*/
+
+
 #include "Game.h"
 
 const char positionFile[] = "position.txt";
 const char gameFile[] = "game.txt";
+const int BLACK_BG = 0;
 
 void PrintWinner (int player1Score, int player2Score) {
 	HANDLE hConsole = GetStdHandle (STD_OUTPUT_HANDLE);
 	if (player1Score > player2Score) {
-		SetConsoleTextAttribute (hConsole, FOREGROUND_BLUE | 0);
+		SetConsoleTextAttribute (hConsole, FOREGROUND_BLUE | BLACK_BG);
 		std::cout << "   BLUE WON";
 	}
 	else if (player2Score > player1Score) {
-		SetConsoleTextAttribute (hConsole, FOREGROUND_GREEN | 0);
+		SetConsoleTextAttribute (hConsole, FOREGROUND_GREEN | BLACK_BG);
 		std::cout << "   GREEN WON";
 	}
 	else {
