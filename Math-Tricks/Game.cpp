@@ -3,24 +3,24 @@
 const char positionFile[] = "position.txt";
 const char gameFile[] = "game.txt";
 
-void PrintWinner(int player1Score, int player2Score) {
-	HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
+void PrintWinner (int player1Score, int player2Score) {
+	HANDLE hConsole = GetStdHandle (STD_OUTPUT_HANDLE);
 	if (player1Score > player2Score) {
-		SetConsoleTextAttribute(hConsole, FOREGROUND_BLUE | 0);
+		SetConsoleTextAttribute (hConsole, FOREGROUND_BLUE | 0);
 		std::cout << "   BLUE WON";
 	}
 	else if (player2Score > player1Score) {
-		SetConsoleTextAttribute(hConsole, FOREGROUND_GREEN | 0);
+		SetConsoleTextAttribute (hConsole, FOREGROUND_GREEN | 0);
 		std::cout << "   GREEN WON";
 	}
 	else {
-		SetConsoleTextAttribute(hConsole, FOREGROUND_RED | FOREGROUND_GREEN | FOREGROUND_BLUE);
+		SetConsoleTextAttribute (hConsole, FOREGROUND_RED | FOREGROUND_GREEN | FOREGROUND_BLUE);
 		std::cout << "   GAME ENDED IN A DRAW";
 	}
-	SetConsoleTextAttribute(hConsole, FOREGROUND_RED | FOREGROUND_GREEN | FOREGROUND_BLUE);
+	SetConsoleTextAttribute (hConsole, FOREGROUND_RED | FOREGROUND_GREEN | FOREGROUND_BLUE);
 }
 
-void Deserialize(Operation** mat, char** matPos, int rows, int cols, int player1row, int player1col, int player2row, int player2col,
+void Deserialize (Operation** mat, char** matPos, int rows, int cols, int player1row, int player1col, int player2row, int player2col,
 	int player1score, int player2score, bool turn) //save game
 {
 	std::ofstream ofs1(positionFile);
@@ -57,7 +57,7 @@ void Deserialize(Operation** mat, char** matPos, int rows, int cols, int player1
 	ofs2.close();
 }
 
-char** SerializePos(int& rows, int& cols, int& player1row, int& player1col, int& player2row, int& player2col)
+char** SerializePos (int& rows, int& cols, int& player1row, int& player1col, int& player2row, int& player2col)
 {//load positions matrix and positions
 	std::ifstream ifs(positionFile);
 	if (!ifs.is_open())
@@ -79,7 +79,7 @@ char** SerializePos(int& rows, int& cols, int& player1row, int& player1col, int&
 	return posMat;
 }
 
-Operation** SerializeGame(int& rows, int& cols, int& player1score, int& player2score, bool& turn)
+Operation** SerializeGame (int& rows, int& cols, int& player1score, int& player2score, bool& turn)
 {//load board, scores and turn
 	std::ifstream ifs(gameFile);
 	if (!ifs.is_open())

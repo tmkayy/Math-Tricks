@@ -6,6 +6,8 @@
 #include "Validation.h"
 #include "Game.h"
 
+const int MIN_SIZE = 4;
+
 void HandleTurn(HANDLE hConsole, Operation** mat, char** posMat, int& playerRow, int& playerCol,
 	int& playerScore, int opponentRow, int opponentCol, int rows, int cols,
 	bool& turn) {
@@ -41,7 +43,7 @@ int main()
 		}
 	}
 	else {
-		while (cols < 4 || rows < 4) {
+		while (cols < MIN_SIZE || rows < MIN_SIZE) {
 			std::cout << "Input size of the board (RxC) (minimum 4x4): ";
 			std::cin >> rows >> cols;
 		}
@@ -58,34 +60,34 @@ int main()
 	{
 		system("cls");
 		PrintMatrix(mat, posMat, rows, cols, player1RowPos, player1ColPos, player2RowPos, player2ColPos);
-		SetConsoleTextAttribute(hConsole, FOREGROUND_BLUE | BG_BLACK);
+		SetConsoleTextAttribute (hConsole, FOREGROUND_BLUE | BG_BLACK);
 		std::cout << "     BLUE: " << player1Score;
-		SetConsoleTextAttribute(hConsole, FOREGROUND_GREEN | BG_BLACK);
+		SetConsoleTextAttribute (hConsole, FOREGROUND_GREEN | BG_BLACK);
 		std::cout << "   GREEN: " << player2Score << std::endl;
-		SetConsoleTextAttribute(hConsole, FG_WHITE | BG_BLACK);
+		SetConsoleTextAttribute (hConsole, FG_WHITE | BG_BLACK);
 		if (turn) { //green
-			SetConsoleTextAttribute(hConsole, FOREGROUND_GREEN | BG_BLACK);
+			SetConsoleTextAttribute (hConsole, FOREGROUND_GREEN | BG_BLACK);
 			std::cout << "Green's turn:" << std::endl;
-			SetConsoleTextAttribute(hConsole, FG_WHITE | BG_BLACK);
-			Move(mat, posMat, player2RowPos, player2ColPos, turn, rows, cols, player2Score,
+			SetConsoleTextAttribute (hConsole, FG_WHITE | BG_BLACK);
+			Move (mat, posMat, player2RowPos, player2ColPos, turn, rows, cols, player2Score,
 				player1RowPos, player1ColPos, player2RowPos, player2ColPos, player1Score, player2Score, turn);
 			if (GameOver(posMat, player1RowPos, player1ColPos, rows, cols))
 				break;
 		}
 		else { //blue
-			SetConsoleTextAttribute(hConsole, FOREGROUND_BLUE | BG_BLACK);
+			SetConsoleTextAttribute (hConsole, FOREGROUND_BLUE | BG_BLACK);
 			std::cout << "Blue's turn:" << std::endl;
-			SetConsoleTextAttribute(hConsole, FG_WHITE | BG_BLACK);
-			Move(mat, posMat, player1RowPos, player1ColPos, turn, rows, cols, player1Score,
+			SetConsoleTextAttribute (hConsole, FG_WHITE | BG_BLACK);
+			Move (mat, posMat, player1RowPos, player1ColPos, turn, rows, cols, player1Score,
 				player1RowPos, player1ColPos, player2RowPos, player2ColPos, player1Score, player2Score, turn);
-			if (GameOver(posMat, player2RowPos, player2ColPos, rows, cols))
+			if (GameOver (posMat, player2RowPos, player2ColPos, rows, cols))
 				break;
 		}
 
 		turn = !turn;
 	}
 
-	PrintWinner(player1Score, player2Score);
+	PrintWinner (player1Score, player2Score);
 
 	for (int i = 0; i < rows; ++i) {
 		delete[] mat[i];

@@ -2,21 +2,21 @@
 #include <iostream>
 #include <cstdlib>
 
-int charToInt(char c) {
+int charToInt (char c) {
 	return c - '0';
 }
 
-void ManipulateScore(Operation op, int& score) {
+void ManipulateScore (Operation op, int& score) {
 	switch (op.operation)
 	{
-	case '+': score += op.number; break;
-	case '-': score -= op.number; break;
-	case '*': score *= op.number; break;
-	case '/': score /= op.number; break;
+		case '+': score += op.number; break;
+		case '-': score -= op.number; break;
+		case '*': score *= op.number; break;
+		case '/': score /= op.number; break;
 	}
 }
 
-int stringToInt(const char* str) {
+int stringToInt (const char* str) {
 	int result = 0;
 	bool isNegative = false;
 
@@ -35,7 +35,7 @@ int stringToInt(const char* str) {
 	return (isNegative ? -result : result);
 }
 
-void Move(Operation** mat, char** posMat,
+void Move (Operation** mat, char** posMat,
 	int& playerRow, int& playerCol,
 	bool player, const int rows, const int cols, int& score,
 	int player1Row, int player1Col, int player2Row, int player2Col,
