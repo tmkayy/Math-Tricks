@@ -21,18 +21,19 @@
 #include "Game.h"
 
 const int MIN_SIZE = 4;
+const int MAX_SIZE = 25;
 const int BLACK_BG = 0;
 
-bool LoadGame (Operation**& mat, char**& posMat, int& rows, int& cols,
+bool LoadGame(Operation**& mat, char**& posMat, int& rows, int& cols,
 	int& player1RowPos, int& player1ColPos, int& player2RowPos, int& player2ColPos,
 	int& player1Score, int& player2Score, bool& turn) {
-	mat = SerializeGame (rows, cols, player1Score, player2Score, turn);
-	posMat = SerializePos (rows, cols, player1RowPos, player1ColPos, player2RowPos, player2ColPos);
+	mat = SerializeGame(rows, cols, player1Score, player2Score, turn);
+	posMat = SerializePos(rows, cols, player1RowPos, player1ColPos, player2RowPos, player2ColPos);
 
 	return mat != nullptr && posMat != nullptr;
 }
 
-void InitializeGame (Operation**& mat, char**& posMat, int& rows, int& cols, int& player1RowPos, int& player1ColPos,
+void InitializeGame(Operation**& mat, char**& posMat, int& rows, int& cols, int& player1RowPos, int& player1ColPos,
 	int& player2RowPos, int& player2ColPos, int& player1Score, int& player2Score, bool& turn) {
 	std::cout << "Do you want to load a saved game? (Y/N): ";
 	char choice;
@@ -46,7 +47,7 @@ void InitializeGame (Operation**& mat, char**& posMat, int& rows, int& cols, int
 		}
 	}
 	else {
-		while (cols < MIN_SIZE || rows < MIN_SIZE) {
+		while (cols < MIN_SIZE || cols > MAX_SIZE || rows < MIN_SIZE || rows > MAX_SIZE) {
 			std::cout << "Input size of the board (RxC) (minimum 4x4): ";
 			std::cin >> rows >> cols;
 		}

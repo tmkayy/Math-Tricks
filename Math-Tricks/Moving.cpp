@@ -30,24 +30,6 @@ void ManipulateScore (Operation op, int& score) {
 	}
 }
 
-int stringToInt (const char* str) {
-	int result = 0;
-	bool isNegative = false;
-
-	while (*str == ' ') { //in case theres white spaces
-		str++;
-	}
-	if (*str == '-') {
-		isNegative = true;
-		str++;
-	}
-	while (*str >= '0' && *str <= '9') {
-		result = result * 10 + charToInt(*str);
-		str++;
-	}
-
-	return (isNegative ? -result : result);
-}
 
 void Move (Operation** mat, char** posMat,
 	int& playerRow, int& playerCol,
@@ -56,20 +38,17 @@ void Move (Operation** mat, char** posMat,
 	int& player1Score, int& player2Score, bool turn) {
 	int nextMoveRow = 0;
 	int nextMoveCol = 0;
-	char input[MAX_LENGTH];
 
 	while (true) {
-		std::cout << "Enter your next move (row and column 1 cell away or \"S\" to save game and quit):" << std::endl;
+		std::cout << "Enter your next move (row and column 1 cell away or \"-1\" on row to save game and quit):" << std::endl;
 		std::cout << "Row = ";
-		std::cin >> input;
+		std::cin >> nextMoveRow;
 
-		if (input[0] == 'S' || input[0] == 's') {
+		if (nextMoveRow == -1) {
 			std::cout << "Saving game and quitting..." << std::endl;
 			Deserialize(mat, posMat, rows, cols, player1Row, player1Col, player2Row, player2Col, player1Score, player2Score, turn);
 			exit(0);
 		}
-
-		nextMoveRow = stringToInt(input);
 
 		std::cout << "Column = ";
 		std::cin >> nextMoveCol;
